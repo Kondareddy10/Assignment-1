@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("code"){
             steps{
-                echo "This is my code"
+                echo "gitHub Url: https://github.com/Kondareddy10/assignment-1.git"
             }
         }
         stage("Build"){
